@@ -1,0 +1,71 @@
+apply plugin: "com.android.library"
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    publishNonDefault true
+//    enforceUniquePackageName false
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=gnu++11 -fno-exceptions -fno-rtti -fvisibility-inlines-hidden"
+                arguments '-DANDROID_PLATFORM=android-16', '-DANDROID_STL=c++_shared', "-DANDROID_ARM_NEON=ON"
+            }
+            ndk {
+                abiFilters 'armeabi-v7a'
+                abiFilters 'arm64-v8a'
+            }
+        }
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path '../../../../sdk/P2PSDK/android/jni/CMakeLists.txt'
+        }
+    }
+    sourceSets {
+        main {
+            manifest.srcFile "../../../../sdk/P2PSDK/android/AndroidManifest.xml"
+            java.srcDirs = [
+                    "../../../../sdk/P2PSDK/android/api",
+                    "../../../../sdk/wheels/java",
+                    "../../../../../webrtc/sdk/android/api",
+                    "../../../../../webrtc/base/java/src",
+                    "../../../../../webrtc/modules/audio_device/android/java/src",
+                    "../../../../../webrtc/third_party/jsr-305/src/ri/src/main/java",
+            ]
+            java.filter.exclude(
+                    "org/webrtc/Metrics.java",
+                    "org/webrtc/TextureFilter.java",
+                    "org/webrtc/VideoCaptureAndroid.java",
+            )
+            jniLibs.srcDirs = [
+            ]
+            res.srcDirs = [
+                    "../../../../sdk/P2PSDK/android/res",
+            ]
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //    compile fileTree(include: ['libwebrtc.jar'], dir: '../../../../../out/arm64-v8a/lib.java/webrtc/sdk/android')
+}
+

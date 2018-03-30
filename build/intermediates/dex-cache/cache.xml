@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/3.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6c8500f2e423d1920d6e4fb8100861fdae898af0">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="12dd1084703631bf2406580703488ad25cec6d3c">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/10.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cd1ac7bb8c5b8308671b34328fe141e7b3973d8d">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/16.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="11544a6b1c2abe9017ad8d5118f87da3f81a8e69">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/2.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea098188d497ca4b7dcc118e192c2b0711d3915b">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/5.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70bb91d0f2a6a210603265f464de009433b2818">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/14.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cce1edf674299569566f6961bca5352bd512ea7">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/12.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="96ae84822107015ee6ac8bf6a62c09dfac28488c">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/9.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1eb52ab39a98c946ac6939b258f07962a4ce1b3">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/4.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d26f42f09bd4fde86608c0dee4397415497ad7a9">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/6.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1253897d3456f7fda5fe06800dd9331af8e6792">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/7.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b27a7a34791cd90b536255baf816ab3559823ba7">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/15.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2eee543a111b6e8adc929038d0e8c1e8410652dd">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/11.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8894eaf3ad90c58cc8a1b32f447656194d559453">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/8.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c6d8abf5023b95f3109acfdab9a395ff1801f200">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/desugar/release/13.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8cd8c43301a956f577b244668c4ad46ebc584303">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/processing-tools/runtime-deps/release/desugar_try_with_resources.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9f6c82dbe2cd734e41c68173fbc32dee432333d5">
+        <dex dex="/Users/peter/DRTC/WebRTC/RTCProjects/demos/P2PDemo/android/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+
+</items>

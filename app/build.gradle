@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.example.janusclient"
+        minSdkVersion 16
+        targetSdkVersion 22
+        // multiDexEnabled true
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    sourceSets.main.jni.srcDirs = []
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            jniDebuggable true
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:percent:26.1.0'
+    compile project(':janusgateway')
+    compile 'org.greenrobot:eventbus:3.1.0-RC'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+}
